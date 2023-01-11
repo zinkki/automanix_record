@@ -1,11 +1,15 @@
 import './App.css';
+import ButtonList from './component/ButtonList';
 
-function App() {
+export default function App() {
+
   return (
+    <>
     <div className="App">
-      <p>zinkki-netlify-test....</p>
+      <h2 className="mt-4 mb-4">automanix-test page</h2>
+      <ButtonList></ButtonList>
     </div>
+    </>
   );
 }
 
-export default App;
