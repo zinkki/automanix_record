@@ -12,6 +12,7 @@ export default function App() {
     <div className="App">
       <Routes>
         <Route path="/pdf" element={<PDFviewer></PDFviewer>} />
+        <Route path="/pdf_bb" element={<h2>Route22222</h2>} />
       </Routes>
       
       <h2 className="mt-4 mb-4">automanix-test page</h2>
