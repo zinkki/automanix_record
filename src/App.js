@@ -13,7 +13,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Main></Main>} />
         <Route path="/pdf" element={<PDFviewer></PDFviewer>} />
-        <Route path="/pdf_bb" element={<h2>Route22222</h2>} />
+        <Route path="/admin" element={<div><h2>AdminPage</h2></div>} />
       </Routes>
     </div>
     </>

@@ -1,4 +1,6 @@
-
+.bg-gray {
+  background-color: #44c5e9;
+}
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
@@ -7,6 +9,13 @@
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
+.btn-primary {
+  padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #002f6c;
+  border-color: #002f6c;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -14,22 +23,40 @@
   width: 100%;
 }
 
+.page-section {
+  padding: 6rem 0;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* main-header */
 .masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: left;
   color: #fff;
-  background-image: url('../src/asset/img/header-bg.jpg');
+  background: linear-gradient(to right,
+  rgba(20, 20, 20, 0.5) 10%,
+  rgba(20, 20, 20, 0.25) 25%,
+  rgba(20, 20, 20, 0.1) 50%,
+  rgba(20, 20, 20, 0) 75%,
+  rgba(20, 20, 20, 0) 100%),
+  url('../src/asset/img/img-main.png');
+  /* background: linear-gradient(to right, #000, #fff 10%);
+  background-image: url('../src/asset/img/img-main.png'); */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  
 }
 
 .masthead .masthead-heading {
-  font-size: 3.25rem;
+  font-size: 3.5rem;
   font-weight: 700;
-  line-height: 3.25rem;
+  line-height: 0.96;
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -38,20 +65,145 @@
   .masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
-  }
-  .masthead .masthead-subheading {
-    font-size: 2.25rem;
-    font-style: italic;
-    line-height: 2.25rem;
-    margin-bottom: 2rem;
+    
+    background: linear-gradient(to right, 
+    rgba(20, 20, 20, 0.5) 10%,
+    rgba(20, 20, 20, 0.25) 30%,
+    rgba(20, 20, 20, 0.1) 50%,
+    rgba(20, 20, 20, 0) 75%,
+    rgba(20, 20, 20, 0) 100%,
+ ),
+  url('../src/asset/img/img-main.png');
   }
   .masthead .masthead-heading {
-    font-size: 4.5rem;
+    font-size: 5.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 4rem;
+    margin-top: 7rem;
+    margin-bottom: 0rem;
   }
 }
-.page-section {
+
+/* sub-header */
+.page-section-subhead {
+  padding: 4rem 0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.page-section-subhead h2.section-heading, .page-section .section-heading.h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+}
+.page-section-subhead h3.section-subheading, .page-section-subhead .section-subheading.h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 1rem;
+}
+
+
+/* ranking */
+.page-section-ranking {
   padding: 6rem 0;
+  background-image: url('../src/asset/img/img-ranking-bg.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* portfolio */
+
+.section-heading-po {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+}
+.section-subheading-subpo {
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 3rem;
+}
+.section-subheading-tiny {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+#portfolio .portfolio-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(84, 84, 84, 0.2);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.35s;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+  opacity: 1;
+}
+#portfolio .portfolio-item .portfolio-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+  font-size: 1.2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 900;
+  margin-bottom: 0rem;
+}
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* youtube */
+#portfolio .portfolio-item-youtube {
+  margin-left: auto;
+  margin-right: auto;
+}
+#portfolio .portfolio-item-youtube .portfolio-link-youtube {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item-youtube .portfolio-link-youtube .portfolio-hover-youtube {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.35s;
+}
+#portfolio .portfolio-item-youtube .portfolio-link-youtube .portfolio-hover-youtube .portfolio-hover-content {
+  font-size: 9rem;
+  color: white;
+}
+#portfolio .portfolio-item-youtube .portfolio-link-youtube:hover .portfolio-hover-youtube {
+  opacity: 1;
 }

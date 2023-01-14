@@ -1,17 +1,35 @@
+import Header from '../component/Header';
+import SubHeader from '../component/SubHeader';
+import Ranking from '../component/Ranking';
+import Product from '../component/Product';
+import Youtube from '../component/Youtube';
+import Result from '../component/Result';
+
 import ButtonList from '../component/ButtonList'
+
+
+
 export default function Main() {
   return (
     <>
       {/* header */}
-      <div className="masthead">
-        <div className="container">
-          <div className="masthead-heading">
-            N Time Attack
-            <br />
-            Challenge
-          </div>
-        </div>
-      </div>
+      <Header></Header>
+
+      {/* subheader */}
+      <SubHeader></SubHeader>
+
+      {/* ranking */}
+      <Ranking></Ranking>
+
+      {/* product */}
+      <Product></Product>
+
+      {/* youtube */}
+      <Youtube></Youtube>
+
+      {/* result */}
+      <Result></Result>
+
 
       <section className="page-section bg-light" id="team">
         <div className="container">
