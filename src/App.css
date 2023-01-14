@@ -207,3 +207,26 @@
 #portfolio .portfolio-item-youtube .portfolio-link-youtube:hover .portfolio-hover-youtube {
   opacity: 1;
 }
+
+/* table(ranking-chart) */
+.ranking-chart td {
+  color: #fff;
+  background-color: #555555;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.ranking-chart tr {
+  border: 0.5rem solid #fff;
+  background-color: #555555;
+}
+.ranking-chart .black {
+  background-color: #222;
+  color:'#fff'
+}
+.ranking-chart td {
+  color:'#efefef'
+}
+.ranking-chart tr:hover td:hover {
+  transition: ease-in-out 0.55s;
+  color:#ffffff;
+}
