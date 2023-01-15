@@ -43,7 +43,7 @@ export default function Product() {
               </a>
               <div className="portfolio-caption">
                 <div className="portfolio-caption-heading">
-                  현대Nx펠리칸 케이스 3종세트
+                  현대N x 펠리칸 케이스 3종세트
                 </div>
                 <div className="portfolio-caption-subheading text-muted">
                   최종 결승 1위 상품

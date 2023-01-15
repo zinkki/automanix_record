@@ -1,6 +1,6 @@
 export default function SubHeader() {
   return (
-		<section className="page-section-subhead" id="services">
+		<section className="page-section-subhead" id="challenge">
       <div className="container">
         <div className="text-center">
           <h2 className="section-heading">한번 이상 도전 해보셨나요?</h2>

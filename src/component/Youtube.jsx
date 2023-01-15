@@ -15,7 +15,7 @@ export default function Youtube() {
             <div className="portfolio-item-youtube">
               <a className="portfolio-link-youtube" href="https://www.youtube.com/@HyundaiNFestival">
                 <div className="portfolio-hover-youtube col-lg-12">
-                  <div className="portfolio-hover-content"><FaRegPlayCircle></FaRegPlayCircle></div>
+                  <div className="portfolio-hover-content icon"><FaRegPlayCircle></FaRegPlayCircle></div>
                 </div>
                 <img
                   className="img-fluid"

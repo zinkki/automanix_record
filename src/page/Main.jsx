@@ -1,9 +1,11 @@
+import Nav from '../component/Nav';
 import Header from '../component/Header';
 import SubHeader from '../component/SubHeader';
 import Ranking from '../component/Ranking';
 import Product from '../component/Product';
 import Youtube from '../component/Youtube';
 import Result from '../component/Result';
+
 
 import ButtonList from '../component/ButtonList'
 
@@ -12,6 +14,9 @@ import ButtonList from '../component/ButtonList'
 export default function Main() {
   return (
     <>
+      {/* nav */}
+      <Nav></Nav>
+
       {/* header */}
       <Header></Header>
 
