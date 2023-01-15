@@ -2,8 +2,9 @@ import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 
 export default function RankingTitle() {
+	
 	return( 
-		<div className='ranking-width'>
+		<div className='ranking-width' data-aos="fade-right" data-aos-duration="1000">
 		<Tabs style={{border:'none'}}>
 			<Tab eventKey="title" className='ranking-title'>
 				<h1 className='font900' style={{marginLeft:'1.5rem'}}>

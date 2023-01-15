@@ -3,13 +3,13 @@ export default function Product() {
     <section className="page-section bg-light" id="portfolio">
       <div className="container">
         <div className="text-center">
-          <h2 className="section-heading-po">상품</h2>
-          <h3 className="section-subheading-subpo">
+          <h2 className="section-heading-po" data-aos="fade-right" data-aos-delay="200">상품</h2>
+          <h3 className="section-subheading-subpo" data-aos="fade-right" data-aos-delay="400">
             현대 N만의 특별한 상품을 드립니다!
           </h3>
         </div>
         <div className="row">
-          <div className="col-lg-4 col-sm-6 mb-4">
+          <div className="col-lg-4 col-sm-6 mb-4" data-aos="flip-up" data-aos-delay="600">
             <div className="portfolio-item">
               <a className="portfolio-link" href="#blank01">
                 <div className="portfolio-hover">
@@ -29,7 +29,7 @@ export default function Product() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6 mb-4">
+          <div className="col-lg-4 col-sm-6 mb-4" data-aos="flip-up" data-aos-delay="800">
             <div className="portfolio-item">
               <a className="portfolio-link" data-bs-toggle="modal" href="#blank02">
                 <div className="portfolio-hover">
@@ -51,7 +51,7 @@ export default function Product() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6 mb-4">
+          <div className="col-lg-4 col-sm-6 mb-4" data-aos="flip-up" data-aos-delay="1000">
             <div className="portfolio-item">
               <a className="portfolio-link" data-bs-toggle="modal" href="#blank03">
                 <div className="portfolio-hover">
