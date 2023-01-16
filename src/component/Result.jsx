@@ -9,11 +9,11 @@ export default function result() {
           </h3>
         </div>
         <div className="row">
-          <div className="col-lg-4 col-sm-6 mb-4" data-aos="flip-right" data-aos-delay="500">
-            <div className="portfolio-item">
-              <a className="portfolio-link" href="#blank01">
-                <div className="portfolio-hover">
-                  <div className="portfolio-hover-content"></div>
+          <div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="500">
+            <div className="portfolio-item-result">
+              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day01.pdf')}}>
+                <div className="portfolio-hover-result">
+                  <div className="portfolio-hover"></div>
                 </div>
                 <img
                   className="img-fluid"
@@ -23,10 +23,10 @@ export default function result() {
               </a>
             </div>
           </div>
-					<div className="col-lg-4 col-sm-6 mb-4" data-aos="flip-right" data-aos-delay="600">
-            <div className="portfolio-item">
-              <a className="portfolio-link" href="#blank01">
-                <div className="portfolio-hover">
+					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="600">
+            <div className="portfolio-item-result">
+              <a className="portfolio-link-result" href="#blank01">
+                <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
                 <img
@@ -37,10 +37,10 @@ export default function result() {
               </a>
             </div>
           </div>
-					<div className="col-lg-4 col-sm-6 mb-4" data-aos="flip-right" data-aos-delay="700">
-            <div className="portfolio-item">
-              <a className="portfolio-link" href="#blank01">
-                <div className="portfolio-hover">
+					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="700">
+            <div className="portfolio-item-result">
+              <a className="portfolio-link-result" href="#blank01">
+                <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
                 <img
@@ -51,10 +51,10 @@ export default function result() {
               </a>
             </div>
           </div>
-					<div className="col-lg-4 col-sm-6 mb-4" data-aos="flip-right" data-aos-delay="800">
-            <div className="portfolio-item">
-              <a className="portfolio-link" href="#blank01">
-                <div className="portfolio-hover">
+					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="800">
+            <div className="portfolio-item-result">
+              <a className="portfolio-link-result" href="#blank01">
+                <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
                 <img
@@ -65,10 +65,10 @@ export default function result() {
               </a>
             </div>
           </div>
-					<div className="col-lg-4 col-sm-6 mb-4" data-aos="flip-right" data-aos-delay="900">
-            <div className="portfolio-item">
-              <a className="portfolio-link" href="#blank01">
-                <div className="portfolio-hover">
+					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="900">
+            <div className="portfolio-item-result">
+              <a className="portfolio-link-result" href="#blank01">
+                <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
                 <img
@@ -79,10 +79,10 @@ export default function result() {
               </a>
             </div>
           </div>
-					<div className="col-lg-4 col-sm-6 mb-4" data-aos="flip-right" data-aos-delay="1000">
-            <div className="portfolio-item">
-              <a className="portfolio-link" href="#blank01">
-                <div className="portfolio-hover">
+					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="1000">
+            <div className="portfolio-item-result">
+              <a className="portfolio-link-result" href="#blank01">
+                <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
                 <img
@@ -93,10 +93,10 @@ export default function result() {
               </a>
             </div>
           </div>
-					<div className="col-lg-4 col-sm-6 mb-4" data-aos="flip-right" data-aos-delay="1100">
-            <div className="portfolio-item">
-              <a className="portfolio-link" href="#blank01">
-                <div className="portfolio-hover">
+					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="1100">
+            <div className="portfolio-item-result">
+              <a className="portfolio-link-result" href="#blank01">
+                <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
                 <img
@@ -107,10 +107,10 @@ export default function result() {
               </a>
             </div>
           </div>
-					<div className="col-lg-4 col-sm-6 mb-4" data-aos="flip-right" data-aos-delay="1200">
-            <div className="portfolio-item">
-              <a className="portfolio-link" href="#blank01">
-                <div className="portfolio-hover">
+					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="1200">
+            <div className="portfolio-item-result">
+              <a className="portfolio-link-result" href="#blank01">
+                <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
                 <img
@@ -121,10 +121,10 @@ export default function result() {
               </a>
             </div>
           </div>
-					<div className="col-lg-4 col-sm-6 mb-4" data-aos="flip-right" data-aos-delay="1300">
-            <div className="portfolio-item">
-              <a className="portfolio-link" href="#blank01">
-                <div className="portfolio-hover">
+					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="1300">
+            <div className="portfolio-item-result">
+              <a className="portfolio-link-result" href="#blank01">
+                <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
                 <img

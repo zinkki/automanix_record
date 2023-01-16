@@ -26,6 +26,7 @@
   width: 100%;
 }
 
+
 /* boxtest */
 .item {
   width: 200px;
@@ -56,7 +57,6 @@
 }
 
 /* navbar */
-
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -544,8 +544,7 @@
   background-size: cover;
 }
 
-/* portfolio */
-
+/* product(portfolio) */
 .section-heading-po {
   font-size: 1.5rem;
   margin-top: 0;
@@ -565,7 +564,6 @@
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
-
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
@@ -612,7 +610,6 @@
 }
 
 /* youtube */
-
 #portfolio .portfolio-item-youtube {
   margin-left: auto;
   margin-right: auto;
@@ -648,6 +645,45 @@
 }
 #portfolio .portfolio-item-youtube .portfolio-link-youtube:hover .portfolio-hover-youtube {
   opacity: 1;
+}
+
+/* result(btn) */
+#portfolio .portfolio-item-result {
+  margin-left: auto;
+  margin-right: auto;
+}
+#portfolio .portfolio-item-result .portfolio-link-result {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item-result .portfolio-link-result .portfolio-hover-result {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: rgba(84, 84, 84, 0.8);
+  opacity: 0.5;
+  transition: opacity ease-in-out 0.35s;
+}
+#portfolio .portfolio-item-result .portfolio-link-result .portfolio-hover-result .portfolio-hover-content {
+  font-size: 9rem;
+  color: white;
+}
+@media (min-width:1200px){
+  #portfolio .portfolio-item-result .portfolio-link-result .portfolio-hover-result .portfolio-hover-content {
+    font-size: 9rem;
+  }
+}
+@media (max-width:1000px){
+  #portfolio .portfolio-item-result .portfolio-link-result .portfolio-hover-result .portfolio-hover-content {
+    font-size: 5rem;
+  }
+}
+#portfolio .portfolio-item-result .portfolio-link-result:hover .portfolio-hover-result {
+  opacity: 0;
 }
 
 /* table(ranking-chart) */
@@ -696,15 +732,6 @@
   .ranking-width{
     width:100%;
   }
-}
-.font_n {
-  font-weight: 500;
-}
-.font_t {
-  font-weight: 700;
-}
-.font_tt {
-  font-weight: 900;
 }
 .labtimeTitle {
   font-weight: 900;

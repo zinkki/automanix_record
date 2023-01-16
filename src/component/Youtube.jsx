@@ -11,7 +11,7 @@ export default function Youtube() {
           </h3>
         </div>
         <div className="row">
-          <div className="col-lg-12 col-sm-12 mb-12" data-aos="flip-up" data-aos-delay="600">
+          <div className="col-lg-12 col-sm-12 mb-12" data-aos="fade-right" data-aos-delay="600">
             <div className="portfolio-item-youtube">
               <a className="portfolio-link-youtube" href="https://www.youtube.com/@HyundaiNFestival">
                 <div className="portfolio-hover-youtube col-lg-12">
