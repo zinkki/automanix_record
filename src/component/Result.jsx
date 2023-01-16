@@ -25,7 +25,7 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="600">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" href="#blank01">
+              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day02.pdf')}}>
                 <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -39,7 +39,7 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="700">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" href="#blank01">
+              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day03.pdf')}}>
                 <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -53,7 +53,7 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="800">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" href="#blank01">
+              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day04.pdf')}}>
                 <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -67,7 +67,7 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="900">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" href="#blank01">
+              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day05.pdf')}}>
                 <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -81,7 +81,7 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="1000">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" href="#blank01">
+              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day06.pdf')}}>
                 <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -95,7 +95,7 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="1100">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" href="#blank01">
+              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day07.pdf')}}>
                 <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -109,7 +109,7 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="1200">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" href="#blank01">
+              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day08.pdf')}}>
                 <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -123,7 +123,7 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4" data-aos="fade-right" data-aos-delay="1300">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" href="#blank01">
+              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day09.pdf')}}>
                 <div className="portfolio-hover-result">
                   <div className="portfolio-hover-content"></div>
                 </div>
