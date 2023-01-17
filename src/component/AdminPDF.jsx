@@ -29,6 +29,8 @@ export default function AdminPDF() {
 			Body: file,
 			Bucket: S3_BUCKET,
 			Key: file.name,
+			ContentDisposition:"inline",
+        	ContentType:"application/pdf"
 		};
 		myBucket.putObject(params)
 			.on('httpUploadProgress', (evt) => {

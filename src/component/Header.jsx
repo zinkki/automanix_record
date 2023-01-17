@@ -1,9 +1,9 @@
 export default function Header() {
 
   return (
-    <div className="masthead" id='page-top' data-aos="fade-right" data-aos-delay="0.5s">
+    <div className="masthead" id='page-top'>
       <div className="container">
-        <div className="masthead-heading" data-aos="fade-right" data-aos-delay="0.9s">
+        <div className="masthead-heading">
           N Time Attack
           <br />
           Challenge

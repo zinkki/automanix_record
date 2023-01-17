@@ -1,15 +1,26 @@
+import React, { useState, useEffect } from 'react';
+
 export default function SubHeader() {
 
+  const dataCode = 'c5TX8kbAM5';
+
+  useState(() => {
+    
+  },[15])
 
   return (
 		<section className="page-section-subhead" id="challenge">
       <div className="container">
         <div className="text-center">
-          <h2 className="section-heading" data-aos="fade-right" data-aos-delay='500' >한번 이상 도전 해보셨나요?</h2>
-          <h3 className="section-subheading" data-aos="fade-right" data-aos-delay='700'>
-            이번에 다시 도전하면 랩타임을 단축 시킬 수 있을거예요!
-          </h3>
-          <button data-aos="fade-right" className="btn-primary" onClick={()=>window.open('https://whattime.co.kr/hdn/hntc?date=2023-01-30&time_zone=Asia%2FSeoul')}>다시 도전 하기</button>
+          <h2 className="section-heading">참가 예약하기</h2>
+          <p className="section-subheading mb-4">
+            지금 바로 예약해 보세요!
+          </p>
+          <div className="whattime-inline-widget" 
+                data-code='c5TX8kbAM5' data-text-color="#1a1a1a" 
+                data-button-color="#aacae6" data-background-color="#ffffff" 
+                style={{minWidth:'320px',height:'660px',marginTop:'3rem'}}>
+          </div>
         </div>
       </div>
     </section>

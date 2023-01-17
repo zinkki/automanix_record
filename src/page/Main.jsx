@@ -40,6 +40,9 @@ export default function Main() {
       {/* result */}
       <Result></Result>
 
+      {/* test */}
+      {/* <ButtonList></ButtonList> */}
+
     </>
   );
 }
