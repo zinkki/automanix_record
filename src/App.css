@@ -719,6 +719,11 @@
     font-size: 1rem;
     vertical-align : middle;
   }
+  .ranking-left {
+    float: left;
+    margin-top: 8rem;
+    margin-left:4rem;
+  }
   .ranking-width {
     width: 70%;
     margin: 0 auto;
@@ -730,7 +735,7 @@
     font-size: 1rem;
   }
   .ranking-chart td {
-    font-family: HeadLight;
+    font-family: HeadBold;
     color: #fff;
     background-color: #555555;
     font-weight: 500;
@@ -739,6 +744,9 @@
   }
   .ranking-width{
     width:100%;
+  }
+  .ranking-left {
+    display: none;
   }
 }
 @media (max-width: 760px) {
