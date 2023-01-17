@@ -2,7 +2,7 @@ import path from 'path';
 require("dotenv").config();
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 4000;
 const db = require('./config/db.js');
 const bodyParser = require('body-parser');
 
