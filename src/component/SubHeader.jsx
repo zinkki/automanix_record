@@ -4,6 +4,10 @@ export default function SubHeader() {
 
   const dataCode = 'c5TX8kbAM5';
 
+  useEffect(() => {
+    window.WhatTime._autoLoadInlineWidgets();
+  }, [])
+
   useState(() => {
     
   },[15])

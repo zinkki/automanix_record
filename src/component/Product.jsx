@@ -11,55 +11,13 @@ export default function Product() {
         <div className="row">
           <div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item">
-              <a className="portfolio-link" data-bs-toggle="modal" href="#blank03">
-                <div className="portfolio-hover">
-                  <div className="portfolio-hover-content">
-                    <i className="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img
-                  className="img-fluid"
-                  src={require("../asset/img/img-gift-03.png")}
-                  alt="..."
-                />
-              </a>
-              <div className="portfolio-caption">
-                <div className="portfolio-caption-heading">참가자 전원</div>
-                <div className="portfolio-caption-subheading text-muted">
-                  N 컬렉션 핀뱃지 4종 중 랜덤증정(중복 수령X)
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-sm-6 mb-4">
-            <div className="portfolio-item">
-              <a className="portfolio-link" href="#blank01">
-                <div className="portfolio-hover">
-                  <div className="portfolio-hover-content"></div>
-                </div>
-                <img
-                  className="img-fluid"
-                  src={require("../asset/img/img-gift-01.png")}
-                  alt="..."
-                />
-              </a>
-              <div className="portfolio-caption">
-                <div className="portfolio-caption-heading">데일리 베스트 드라이버</div>
-                <div className="portfolio-caption-subheading text-muted">
-                  N 세차 용품 세트(1일 1명, 중복 수령X)
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-sm-6 mb-4">
-            <div className="portfolio-item">
               <a className="portfolio-link" data-bs-toggle="modal" href="#blank02">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content"></div>
                 </div>
                 <img
                   className="img-fluid"
-                  src={require("../asset/img/img-gift-02.png")}
+                  src={require("../asset/img/img-update-product1.jpg")}
                   alt="..."
                 />
               </a>
@@ -113,6 +71,48 @@ export default function Product() {
                 <div className="portfolio-caption-heading">최종 결승 3등</div>
                 <div className="portfolio-caption-subheading text-muted">
                   현대N x 펠리칸 1170 케이스
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-sm-6 mb-4">
+            <div className="portfolio-item">
+              <a className="portfolio-link" data-bs-toggle="modal" href="#blank03">
+                <div className="portfolio-hover">
+                  <div className="portfolio-hover-content">
+                    <i className="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  className="img-fluid"
+                  src={require("../asset/img/img-update-product2.jpg")}
+                  alt="..."
+                />
+              </a>
+              <div className="portfolio-caption">
+                <div className="portfolio-caption-heading">참가자 전원</div>
+                <div className="portfolio-caption-subheading text-muted">
+                  N 컬렉션 핀뱃지 4종 중 랜덤증정(중복 수령X)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-sm-6 mb-4">
+            <div className="portfolio-item">
+              <a className="portfolio-link" href="#blank01">
+                <div className="portfolio-hover">
+                  <div className="portfolio-hover-content"></div>
+                </div>
+                <img
+                  className="img-fluid"
+                  src={require("../asset/img/img-gift-01.png")}
+                  alt="..."
+                />
+              </a>
+              <div className="portfolio-caption">
+                <div className="portfolio-caption-heading">데일리 베스트 드라이버</div>
+                <div className="portfolio-caption-subheading text-muted">
+                  N 세차 용품 세트(1일 1명, 중복 수령X)
                 </div>
               </div>
             </div>
