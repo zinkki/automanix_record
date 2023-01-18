@@ -706,6 +706,7 @@
 }
 
 /* table(ranking-chart) */
+
 @media (min-width: 1200px) {
   .ranking-chart th {
     font-family: HeadBold;
@@ -728,10 +729,19 @@
     width: 70%;
     margin: 0 auto;
   }
+  .ranking-chart .black {
+    font-size: 1.7rem;
+  }
+  .ranking-chart .red {
+    font-size: 1.7rem;
+  }
+  .ranking-chart .blue {
+    font-size: 1.7rem;
+  }
 }
 @media (max-width: 1200px) {
   .ranking-chart th {
-    font-family: HeadLight;
+    font-family: HeadBold;
     font-size: 1rem;
   }
   .ranking-chart td {
@@ -741,6 +751,15 @@
     font-weight: 500;
     font-size: 1rem;
     vertical-align : middle;
+  }
+  .ranking-chart .black {
+    font-size: 1.3rem;
+  }
+  .ranking-chart .red {
+    font-size: 1.3rem;
+  }
+  .ranking-chart .blue {
+    font-size: 1.3rem;
   }
   .ranking-width{
     width:100%;
@@ -759,9 +778,19 @@
     font-weight: 500;
     font-size: 0.8rem;
     vertical-align : middle;
+    font-family: HeadLight;
   }
   .ranking-width{
     width:100%;
+  }
+  .ranking-chart .black {
+    font-size: 0.9rem;
+  }
+  .ranking-chart .red {
+    font-size: 0.9rem;
+  }
+  .ranking-chart .blue {
+    font-size: 0.9rem;
   }
 }
 .labtimeTitle {
@@ -795,9 +824,13 @@
 }
 .ranking-chart .black {
   background-color: #222;
-  color:'#fff'
+  color:'#fff';
 }
-.ranking-chart td:hover {
-  transition: ease-in-out 0.55s;
-  background-color: #494c53;
+.ranking-chart .red {
+  background-color: #d44428;
+  color:'#fff';
+}
+.ranking-chart .blue {
+  background-color: #b0c9e3;
+  color:#222;
 }

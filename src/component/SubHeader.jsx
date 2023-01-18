@@ -23,7 +23,7 @@ export default function SubHeader() {
           <div className="whattime-inline-widget" 
                 data-code='c5TX8kbAM5' data-text-color="#1a1a1a" 
                 data-button-color="#aacae6" data-background-color="#ffffff" 
-                style={{minWidth:'320px',height:'660px',marginTop:'3rem'}}>
+                style={{minWidth:'320px',height:'660px',marginTop:'3rem',overflow:'hidden'}}>
           </div>
         </div>
       </div>

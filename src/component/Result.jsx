@@ -11,7 +11,8 @@ export default function result() {
         <div className="row">
           <div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day01.pdf')}}>
+              {/* <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day01.pdf')}}> */}
+              <a className="portfolio-link-result">
                 <div className="portfolio-hover"> {/* className="portfolio-hover-result" */}
                   <div className="portfolio-hover"></div>
                 </div>
@@ -25,7 +26,8 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day02.pdf')}}>
+              {/* <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day02.pdf')}}> */}
+              <a className="portfolio-link-result">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -39,7 +41,8 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day03.pdf')}}>
+              {/* <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day03.pdf')}}> */}
+              <a className="portfolio-link-result">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -53,7 +56,8 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day04.pdf')}}>
+              {/* <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day04.pdf')}}> */}
+              <a className="portfolio-link-result">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -67,7 +71,8 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day05.pdf')}}>
+              {/* <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day05.pdf')}}> */}
+              <a className="portfolio-link-result">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -81,7 +86,8 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day06.pdf')}}>
+              {/* <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day06.pdf')}}> */}
+              <a className="portfolio-link-result">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -95,7 +101,8 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day07.pdf')}}>
+              {/* <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day07.pdf')}}> */}
+              <a className="portfolio-link-result">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -109,7 +116,8 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day08.pdf')}}>
+              {/* <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day08.pdf')}}> */}
+              <a className="portfolio-link-result">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content"></div>
                 </div>
@@ -123,7 +131,8 @@ export default function result() {
           </div>
 					<div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item-result">
-              <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day09.pdf')}}>
+              {/* <a className="portfolio-link-result" onClick={()=>{window.open('https://automanix.s3.ap-northeast-2.amazonaws.com/day09.pdf')}}> */}
+              <a className="portfolio-link-result">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content"></div>
                 </div>

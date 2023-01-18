@@ -11,10 +11,7 @@ export default function Product() {
         <div className="row">
           <div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item">
-              <a className="portfolio-link" data-bs-toggle="modal" href="#blank02">
-                <div className="portfolio-hover">
-                  <div className="portfolio-hover-content"></div>
-                </div>
+              <a className="portfolio-link" data-bs-toggle="modal">
                 <img
                   className="img-fluid"
                   src={require("../asset/img/img-update-product1.jpg")}
@@ -33,12 +30,7 @@ export default function Product() {
           </div>
           <div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item">
-              <a className="portfolio-link" data-bs-toggle="modal" href="#blank03">
-                <div className="portfolio-hover">
-                  <div className="portfolio-hover-content">
-                    <i className="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
+              <a className="portfolio-link" data-bs-toggle="modal">
                 <img
                   className="img-fluid"
                   src={require("../asset/img/img-product04.jpg")}
@@ -55,12 +47,7 @@ export default function Product() {
           </div>
           <div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item">
-              <a className="portfolio-link" data-bs-toggle="modal" href="#blank03">
-                <div className="portfolio-hover">
-                  <div className="portfolio-hover-content">
-                    <i className="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
+              <a className="portfolio-link" data-bs-toggle="modal">
                 <img
                   className="img-fluid"
                   src={require("../asset/img/img-product05.jpg")}
@@ -77,12 +64,7 @@ export default function Product() {
           </div>
           <div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item">
-              <a className="portfolio-link" data-bs-toggle="modal" href="#blank03">
-                <div className="portfolio-hover">
-                  <div className="portfolio-hover-content">
-                    <i className="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
+              <a className="portfolio-link" data-bs-toggle="modal">
                 <img
                   className="img-fluid"
                   src={require("../asset/img/img-update-product2.jpg")}
@@ -99,10 +81,7 @@ export default function Product() {
           </div>
           <div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item">
-              <a className="portfolio-link" href="#blank01">
-                <div className="portfolio-hover">
-                  <div className="portfolio-hover-content"></div>
-                </div>
+              <a className="portfolio-link">
                 <img
                   className="img-fluid"
                   src={require("../asset/img/img-gift-01.png")}

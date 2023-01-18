@@ -188,74 +188,74 @@ export default function RankingChart() {
     </thead>
     <tbody>
       <tr style={{color:'#efefef'}} >
-        <td style={{backgroundColor:'#d44428',fontWeight:'900',fontSize:'1.7rem'}}>1</td>
+        <td className='red'>1</td>
         <td>홍길동</td>
         <td>길동컴퍼니</td>
         <td>모터스포츠</td>
-        <td style={{backgroundColor:'#d44428',fontWeight:'900',fontSize:'1.7rem'}}>1:50.123</td>
+        <td className='red'>1:50.123</td>
       </tr>
       <tr>
-        <td style={{backgroundColor:'#b0c9e3',color:'#222',fontWeight:'900',fontSize:'1.7rem'}}>2</td>
+        <td className='blue'>2</td>
         <td>홍길동</td>
         <td>길동컴퍼니</td>
         <td>모터스포츠</td>
-        <td style={{backgroundColor:'#b0c9e3',color:'#222',fontWeight:'900',fontSize:'1.7rem'}}>1:50.123</td>
+        <td className='blue'>1:50.123</td>
       </tr>
       <tr>
-        <td style={{backgroundColor:'#b0c9e3',color:'#222',fontWeight:'900',fontSize:'1.7rem'}}>3</td>
+        <td className='blue'>3</td>
         <td>홍길동</td>
         <td>길동컴퍼니</td>
         <td>모터스포츠</td>
-        <td style={{backgroundColor:'#b0c9e3',color:'#222',fontWeight:'900',fontSize:'1.7rem'}}>1:50.123</td>
+        <td className='blue'>1:50.123</td>
       </tr>
       <tr>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>4</td>
+        <td className='black' >4</td>
         <td>홍길동</td>
         <td>길동컴퍼니</td>
         <td>모터스포츠</td>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>1:50.123</td>
+        <td className='black' >1:50.123</td>
       </tr>
       <tr>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>5</td>
+        <td className='black' >5</td>
         <td>홍길동</td>
         <td>길동컴퍼니</td>
         <td>모터스포츠</td>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>1:50.123</td>
+        <td className='black' >1:50.123</td>
       </tr>
       <tr>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>6</td>
+        <td className='black'>6</td>
         <td>홍길동</td>
         <td>길동컴퍼니</td>
         <td>모터스포츠</td>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>1:50.123</td>
+        <td className='black'>1:50.123</td>
       </tr>
       <tr>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>7</td>
+        <td className='black'>7</td>
         <td>홍길동</td>
         <td>길동컴퍼니</td>
         <td>모터스포츠</td>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>1:50.123</td>
+        <td className='black'>1:50.123</td>
       </tr>
       <tr>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>8</td>
+        <td className='black'>8</td>
         <td>홍길동</td>
         <td>길동컴퍼니</td>
         <td>모터스포츠</td>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>1:50.123</td>
+        <td className='black'>1:50.123</td>
       </tr>
       <tr>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>9</td>
+        <td className='black'>9</td>
         <td>홍길동</td>
         <td>길동컴퍼니</td>
         <td>모터스포츠</td>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>1:50.123</td>
+        <td className='black'>1:50.123</td>
       </tr>
       <tr>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>10</td>
+        <td className='black'>10</td>
         <td>홍길동</td>
         <td>길동컴퍼니</td>
         <td>모터스포츠</td>
-        <td className='black' style={{fontWeight:'900',fontSize:'1.7rem'}}>1:50.123</td>
+        <td className='black'>1:50.123</td>
       </tr>
     </tbody>
   </Table>
